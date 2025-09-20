@@ -73,7 +73,6 @@ Running Total = CALCULATE([Total Sales], FILTER(ALL(DateTable), DateTable[Date] 
 
 # ✅ Recommendations
 ![](Retail-reports)
-
 - 🎯 Launch a VIP loyalty program to retain high spenders.
 
 - 👥 Target Emerging Professionals & Established Adults in campaigns.
@@ -83,5 +82,6 @@ Running Total = CALCULATE([Total Sales], FILTER(ALL(DateTable), DateTable[Date] 
 - 🛒 Promote bundling & cross-selling across product categories.
 
 # 📌 Conclusion
+![](Retail_.jpeg)
 
 Even though Python was originally suggested, using Power BI allowed the project to achieve the same objectives — transforming raw retail data into interactive dashboards, insights, and recommendations that support data-driven decision-making.
