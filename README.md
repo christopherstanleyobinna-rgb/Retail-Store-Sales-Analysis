@@ -59,7 +59,7 @@ Running Total = CALCULATE([Total Sales], FILTER(ALL(DateTable), DateTable[Date] 
 
 # 🔑 Key Findings
 
-![](Retail_report.jpg)
+![](Retail_report.jpg) ---- ![](Retail_reports.jpg)
 
 - Sales: 2021 ($19.02M) vs 2022 ($18.84M) → slight 1% decline.
 
