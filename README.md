@@ -1,5 +1,5 @@
 # Retail-Store-Sales-Analysis
-![](Retail_pic.jpg)
+![](https://github.com/christopherstanleyobinna-rgb/Retail-Store-Sales-Analysis/blob/main/Retail_pic.jpeg)
 
 # 📊 Project Overview
 
@@ -10,28 +10,29 @@ The analysis was conducted in Power BI, applying data cleaning, transformation, 
 
 Although the task suggested using Python libraries (Matplotlib, Seaborn, etc.), this analysis was completed in Power BI. The choice was based on two reasons:
 
-Skill Level: At the time of the project, Python visualization techniques had not yet been covered in my learning path, while I had stronger practical knowledge of Excel and Power BI.
+- Skill Level: At the time of the project, Python visualization techniques had not yet been covered in my learning path, while I had stronger practical knowledge of Excel and Power BI.
 
-Business Relevance: Power BI is widely adopted in organizations for interactive dashboards, KPI tracking, and storytelling with data, making it a practical tool for communicating insights to non-technical stakeholders.
+- Business Relevance: Power BI is widely adopted in organizations for interactive dashboards, KPI tracking, and storytelling with data, making it a practical tool for communicating insights to non-technical stakeholders.
 
 This ensured the project still met its objectives of transforming raw data into clear insights and actionable recommendations, even though a different tool was used.
 
 # 🛠️ Process & Tools Used
 ### 1. Data Cleaning & Transformation (Power Query)
 
-Removed duplicates and handled missing values.
+- Removed duplicates and handled missing values.
 
-Formatted date fields and created a calendar table for time-based analysis.
+- Formatted date fields and created a calendar table for time-based analysis.
 
-Grouped Age and Customer Spending into meaningful segments.
+- Grouped Age and Customer Spending into meaningful segments.
 
 ### 2. Data Modeling
+![](modelling.jpg)
 
-Built relationships between Sales Table and Date Table (1-to-many).
+- Built relationships between Sales Table and Date Table (1-to-many).
 
-Star schema model for efficient reporting.
+- Star schema model for efficient reporting.
 
-Ensured proper data types (numeric, text, date).
+- Ensured proper data types (numeric, text, date).
 
 ### 3. DAX Measures
 
@@ -46,36 +47,40 @@ Average Spending = DIVIDE([Total Sales],[Total Customers])
 Running Total = CALCULATE([Total Sales], FILTER(ALL(DateTable), DateTable[Date] <= MAX(DateTable[Date])))
 
 ### 4. Visualization (Power BI Dashboards)
+![](Retail_dashboard.jpg)
 
-KPI Cards for Total Sales, Customers, and Avg Spending.
+- KPI Cards for Total Sales, Customers, and Avg Spending.
 
-Line Charts for sales trends over time.
+- Line Charts for sales trends over time.
 
-Bar & Pie Charts for demographics and spending segmentation.
+- Bar & Pie Charts for demographics and spending segmentation.
 
-Treemaps for top-performing categories and products.
+- Treemaps for top-performing categories and products.
 
 # 🔑 Key Findings
 
-Sales: 2021 ($19.02M) vs 2022 ($18.84M) → slight 1% decline.
+![](Retail_report.jpg)
 
-Customers: 50K total.
+- Sales: 2021 ($19.02M) vs 2022 ($18.84M) → slight 1% decline.
 
-Top Product: Cookware ($1.7M).
+- Customers: 50K total.
 
-Customer Segmentation: Mid-age professionals (25–44+) drive ~70% of revenue.
+- Top Product: Cookware ($1.7M).
 
-High Spenders: 10% of customers contribute 26% of sales.
+- Customer Segmentation: Mid-age professionals (25–44+) drive ~70% of revenue.
+
+- High Spenders: 10% of customers contribute 26% of sales.
 
 # ✅ Recommendations
+![](Retail-reports)
 
-🎯 Launch a VIP loyalty program to retain high spenders.
+- 🎯 Launch a VIP loyalty program to retain high spenders.
 
-👥 Target Emerging Professionals & Established Adults in campaigns.
+- 👥 Target Emerging Professionals & Established Adults in campaigns.
 
-📈 Boost seasonal campaigns to counteract sales dips.
+- 📈 Boost seasonal campaigns to counteract sales dips.
 
-🛒 Promote bundling & cross-selling across product categories.
+- 🛒 Promote bundling & cross-selling across product categories.
 
 # 📌 Conclusion
 
