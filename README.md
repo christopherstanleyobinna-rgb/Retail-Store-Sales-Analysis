@@ -84,4 +84,4 @@ Running Total = CALCULATE([Total Sales], FILTER(ALL(DateTable), DateTable[Date] 
 # 📌 Conclusion
 ![](Retail_.jpeg)
 
-Even though Python was originally suggested, using Power BI allowed the project to achieve the same objectives — transforming raw retail data into interactive dashboards, insights, and recommendations that support data-driven decision-making.
+The retail store shows a strong and stable performance with a diverse product portfolio and a balanced customer base across gender and categories. Growth opportunities lie in leveraging mid-age professionals and high spenders, along with reinvigorating sales growth through strategic promotions and loyalty programs.
